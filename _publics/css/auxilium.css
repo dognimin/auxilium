@@ -1,0 +1,110 @@
+#div_display_index_page,
+#div_display_ogd_index_page,
+#div_display_ogd_details_page,
+#div_display_ogd_populations_page,
+#div_display_ogd_chargements_page,
+#div_display_ogd_imports_page,
+#div_display_ogd_exports_page,
+#div_display_ogd_factures_page,
+#div_display_ogd_factures_verification_page,
+#div_display_ogd_factures_liquidation_page,
+#div_display_ogd_statistiques_page,
+#div_display_ogd_edition_page,
+#div_display_statistiques_index_page,
+#div_display_parametres_index_page,
+#div_display_parametres_ogd_index_page,
+#div_display_parametres_ogd_edition_page,
+#div_display_parametres_ogd_details_page,
+#div_display_parametres_utilisateurs_index_page,
+#div_display_parametres_utilisateurs_details_page,
+#div_display_parametres_utilisateurs_edition_page,
+#div_display_parametres_referentiels_index_page,
+#div_display_parametres_referentiels_generaux_page,
+#div_display_parametres_referentiels_generaux_chargements_page,
+#div_display_parametres_referentiels_centres_sante_page,
+#div_display_parametres_referentiels_centre_sante_page,
+#div_display_parametres_referentiels_professionnels_sante_page,
+#div_display_parametres_referentiels_professionnel_sante_page,
+#div_display_parametres_referentiels_tables_de_valeur_page,
+#div_display_manuel_page,
+#div_display_mot_de_passe_page {
+    color: #1d2124;
+    min-height: 94vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #ffffff;
+}
+#div_display_login_page{
+    margin-top: 100px;
+}
+#form_connexion,
+#form_mot_de_passe_oublie {
+    padding: 20px;
+    border-left: 1px solid #000000;
+}
+#div_mot_de_passe_oublie {
+    display: none;
+}
+#div_login_logo {
+    text-align: center;
+    align-content: normal;
+}
+#p_connexion, #p_results {
+    text-align: center;
+}
+#strength_progress {
+    padding-left: -10px;
+}
+.left_align {
+    text-align: left;
+}
+.center_align {
+    text-align: center;
+}
+.right_align {
+    text-align: right;
+}
+.btn_p {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #4CBCDF;
+}
+.btn_p_danger {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c82333;
+}
+#div_utilisateur_profil {
+    .background-color: #0b2e13;
+    border: 1px solid #c82333;
+}
+.progress,
+#div_mot_de_passe,
+#div_edition,
+#div_habilitation {
+    display: none;
+}
+#div_resultats_recherche {
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: auto;
+    min-height: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #cccccc;
+    background-color: #F8F9FA;
+}
+footer, footer a  {
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+footer a  {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer a:hover  {
+    font-style: normal;
+    transition-delay: 1s;
+    text-decoration: none;
+}
