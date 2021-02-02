@@ -1,0 +1,174 @@
+#div_display_index_page,
+#div_display_profil_page,
+#div_display_ogd_index_page,
+#div_display_ogd_details_page,
+#div_display_ogd_populations_page,
+#div_display_ogd_assure_page,
+#div_display_ogd_chargements_page,
+#div_display_ogd_imports_page,
+#div_display_ogd_exports_page,
+#div_display_ogd_factures_page,
+#div_display_ogd_facture_page,
+#div_display_ogd_factures_verification_page,
+#div_display_ogd_factures_recherche_page,
+#div_display_ogd_factures_liquidation_page,
+#div_display_ogd_statistiques_page,
+#div_display_ogd_edition_page,
+#div_display_statistiques_index_page,
+#div_display_parametres_index_page,
+#div_display_parametres_ogd_index_page,
+#div_display_parametres_ogd_edition_page,
+#div_display_parametres_ogd_details_page,
+#div_display_parametres_utilisateurs_index_page,
+#div_display_parametres_utilisateurs_details_page,
+#div_display_parametres_utilisateurs_edition_page,
+#div_display_parametres_referentiels_index_page,
+#div_display_parametres_referentiels_generaux_page,
+#div_display_parametres_referentiels_generaux_chargements_page,
+#div_display_parametres_referentiels_centres_sante_page,
+#div_display_parametres_referentiels_centre_sante_page,
+#div_display_parametres_referentiels_professionnels_sante_page,
+#div_display_parametres_referentiels_professionnels_sante_page,
+#div_display_parametres_referentiels_professionnel_sante_page,
+#div_display_parametres_referentiels_lettres_cles_page,
+#div_display_parametres_referentiels_lettre_cle_page,
+#div_display_parametres_referentiels_actes_medicaux_page,
+#div_display_parametres_referentiels_acte_medical_page,
+#div_display_parametres_referentiels_tables_de_valeur_page,
+#div_display_parametres_scripts_index_page,
+#div_display_manuel_page,
+#div_display_mot_de_passe_page {
+    color: #1d2124;
+    min-height: 92vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #ffffff;
+}
+
+#div_display_ogd_statistiques_page {
+    color: #ffffff;
+    min-height: 92vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #000000;
+}
+#div_display_login_page{
+    margin-top: 100px;
+}
+#form_connexion,
+#form_mot_de_passe_oublie {
+    padding: 20px;
+    border-left: 1px solid #000000;
+}
+#div_mot_de_passe_oublie {
+    display: none;
+}
+#div_login_logo {
+    text-align: center;
+    align-content: normal;
+}
+#p_connexion, #p_results {
+    text-align: center;
+}
+#strength_progress {
+    padding-left: -10px;
+}
+.left_align {
+    text-align: left;
+}
+.center_align {
+    text-align: center;
+}
+.right_align {
+    text-align: right;
+}
+.btn_p {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #4CBCDF;
+}
+.btn_p_danger {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c82333;
+}
+#div_utilisateur_profil {
+    .background-color: #0b2e13;
+    border: 1px solid #c82333;
+}
+.progress,
+#div_mot_de_passe,
+#div_edition,
+#div_habilitation {
+    display: none;
+}
+#div_resultats_recherche {
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: auto;
+    min-height: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #cccccc;
+    background-color: #F8F9FA;
+}
+.facture_table {
+    width: 100%;
+}
+.facture_table td {
+    border-bottom: 1px solid #cccccc;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.data_table:hover {
+    background-color: #283c83;
+    color: #ffffff;
+}
+.div_acte {
+    border: 1px solid rgba(0,0,0,1);
+    margin-bottom: 10px;
+}
+.div_data_box {
+    width: 100%;
+    min-height: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid #313131;
+    background-color: #222222;
+}
+.div_data_box small {
+    font-size: 0.5em;
+    font-weight: bold;
+}
+.div_data_box p {
+    color: #ff253a;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.div_data_box ul {
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.div_data_box ul li {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border-top: 1px solid #313131;
+}
+footer, footer a  {
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+}
+footer a  {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer a:hover  {
+    font-style: normal;
+    transition-delay: 1s;
+    text-decoration: none;
+}

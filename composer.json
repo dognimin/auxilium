@@ -1,0 +1,19 @@
+{
+  "name": "auxilium/auxilium",
+  "description": "Application de traitement des factures issues des centres de santé dans le cadre de la CMU",
+  "minimum-stability": "dev",
+  "license": "TecHouse",
+  "authors": [
+    {
+      "name": "Dognimin KOULIBALI",
+      "email": "dognimin.koulibali@techouse.io"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "dev-master",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-xmlwriter": "*",
+    "phpoffice/phpspreadsheet": "6.*"
+  }
+}
